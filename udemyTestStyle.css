@@ -1,0 +1,76 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 1.75;
+    font-size: 90%;
+    background-color: burlywood;
+    font-variant: all-small-caps;
+}
+.long-label {
+    display: inline-block;
+    width: 100px;
+}
+
+.round-button {
+    background-color: aqua;
+    border-radius: 80%;
+    padding: 5px;
+    border-color: aquamarine;
+}
+
+.square-button {
+    background-color: aqua;
+    padding: 5px;
+    border-color: aquamarine;
+}
+
+footer {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    line-height: 1;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: pink underline dotted 10px;
+}
+
+table th {
+ background-color: red;
+ border: 2px solid black;
+ padding: 5px;
+}
+table td {
+    background-color: peru;
+    border: 2px dotted black;
+    padding: 5px;
+}
+
+h1 + hr {
+    border-style: dashed;
+    border-width: 5px;
+    border-left-color: magenta;
+    border-right-color: magenta;
+    width: 35%;
+}
+
+input[type="text"] {
+    background-color: bisque;
+}
+input[type="password"] {
+    background-color: blueviolet;
+}
+
+h2:hover {
+    color: royalblue;
+}
+
+ul::first-letter {
+    color: blueviolet;
+}
+#wiki-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
